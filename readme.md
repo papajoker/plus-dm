@@ -21,7 +21,7 @@ Ce fichier permet d'avoir une liste personnalisée avec plus ou moins de choix e
 
 Il est aussi possible de forcer un bureau sans affichage du menu en ajoutant une variable d'environnement dans le fichier  `~/.xinitrc` :
 
-    export DESKTOP_SESSION"='Cinnamon'
+    export DESKTOP_SESSION='Cinnamon'
 
 ##Usage
 ###démarrage en mode texte
