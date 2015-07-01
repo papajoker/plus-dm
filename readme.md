@@ -3,7 +3,7 @@ mettre ces 3 lignes dans `~/.xinitrc` a la place du lanceur du bureau
 
 	#exec gnome-session-cinnamon
     default_session='TTY'
-    source /etc/X11/xinit/xinitrc.d/plus-dm.sh
+    source /etc/X11/xinit/plus-dm.sh
     runDM
 Doit être installé `kdialog` ou `zenity`
     

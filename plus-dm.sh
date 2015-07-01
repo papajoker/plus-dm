@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #/etc/X11/xinit/xinitrc.d/plus-dm.sh
 
-export default_session='TTY'
-export dm_timer=8
+default_session='TTY'
+dm_timer=8
 declare -r pkgname='plus-dm'
 
 ## default string constants {{{
