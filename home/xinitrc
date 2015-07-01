@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+#
+# ~/.xinitrc
+#
+# Executed by startx (run your window manager from here)
+#
+#exec cinnamon-session
+#exec gnome-session-cinnamon
+
+#export DESKTOP_SESSION='Cinnamon'
+source /etc/X11/xinit/xinitrc.d/plus-dm.sh
+default_session='TTY'
+dm_timer=8
+runDM

@@ -1,0 +1,7 @@
+declare -A txt=(
+    ['title']="Choix de l'environnement"
+    ['label']='Choisissez le bureau'
+    ['validate']='valider'
+    ['choise']='le choix'
+    ['error']='Erreur'
+)
